@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Courier+Prime");
+
 .navbar-brand {
     max-width: 4rem;
     margin-right: 2rem;
@@ -8,4 +10,12 @@
     height: 100%;
     margin-right: 2rem;
     max-width: 4rem;
+}
+
+.navbar-brand h1 {
+    font-family: "Courier Prime", sans-serif;
+}
+
+.mainSplashImage {
+    width: 75%;
 }
