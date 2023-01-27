@@ -6,17 +6,21 @@ const HomePage = () => {
     return (
         <Container className="text-center">
             <Row>
-                <h2>
-                    Lights, Camera, <i>Reaction</i>
-                </h2>
+                <Col className="my-3">
+                    <h2>
+                        Lights, Camera, <i>Reaction</i>
+                    </h2>
+                </Col>
             </Row>
             <Row>
-                <a role="button" className="btn btn-dark btn-lg" href="/classes">
-                    Sign up for a class now!
-                </a>
+                <Col className="my-3">
+                    <a role="button" className="btn btn-dark btn-lg" href="/classes">
+                        Sign up for a class now!
+                    </a>
+                </Col>
             </Row>
             <Row className="d-flex justify-content-center">
-                <Col>
+                <Col className="my-3">
                     <img src={MainSplashImage} className="mx-auto mainSplashImage" alt="main splash" />
                 </Col>
             </Row>
